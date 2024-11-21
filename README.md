@@ -2,19 +2,19 @@
 ## Project Overview
 This project aims to help OilyGiant Mining Company find the best location for new oil wells. The main objectives are to:
 
-Collect parameters for oil wells in selected regions, focusing on oil quality and volume of reserves.
-Develop a predictive model to estimate the volume of reserves in new wells.
-Identify oil wells with the highest predicted values.
-Choose the region offering the highest total profit for selected oil wells.
+- Collect parameters for oil wells in selected regions, focusing on oil quality and volume of reserves.
+- Develop a predictive model to estimate the volume of reserves in new wells.
+- Identify oil wells with the highest predicted values.
+- Choose the region offering the highest total profit for selected oil wells using bootstrapping techniques to analyze potential profit and risks.
 
 ## Tools and Libraries
 The project utilizes the following libraries:
 
-pandas
-numpy
-matplotlib
-scipy
-scikit-learn
+- pandas
+- numpy
+- matplotlib
+- scipy
+- scikit-learn
 
 ## Data
 The analysis is based on data from three regions, evaluating the potential profitability of developing new wells. The budget is set at $100 million USD for the development of 200 wells.
